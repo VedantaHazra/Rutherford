@@ -16,7 +16,7 @@ public class EnergySliderScript : MonoBehaviour
     private void OnEnergySliderChanged(float newEnergy)
     {
         value = newEnergy;
-        Debug.Log(value);
+        //Debug.Log(value);
     }
 
     public float GetValue()
