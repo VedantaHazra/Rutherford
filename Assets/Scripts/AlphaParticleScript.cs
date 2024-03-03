@@ -36,7 +36,7 @@ public class AlphaParticleScript : MonoBehaviour
     public void GiveSpeed(float speed1)
     {
         speed = speed1;
-        Debug.Log(speed);
+        //Debug.Log(speed);
         rb.velocity = new Vector3(0f,speed,0f);
     }
 
